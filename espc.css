@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-spec{
+    width: 491px;
+    height: 360px;
+    border: none;
+    overflow: hidden;
+}
+iframe#frame-spec::-webkit-scrollbar{
+display: none;}
+hgroup#cabecalho h1{
+    color: black;
+    font-family: bell mt;}
+hgroup#cabecalho h2{
+    color: brown;
+    font-family: bell mt;}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>wanessa salgados</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="fale-cons.css";/>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+   
+</head>
+<script>
+    function mudaFOTO(foto){
+        document.getElementById("icone").src=foto; }
+</script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+    <hgroup id="cabecalho">
+
+        <h1>fabrica:</h1>
+     <h2>wanessa  salgados</h2>
+
+    </hgroup>
+<img id="icone" src="fale conosco.jpg"/>
+
+  
+<nav id="menu">
+    
+   <h1> menu principal</h1>
+   <ul type="disc">
+   <li onmousemove="mudaFOTO('home.jpg')" onmouseout="mudaFOTO('fale conosco.jpg')"><a href="index.html" target="_blank">home</a></li>
+   <li onmousemove="mudaFOTO('especificações.jpg')" onmouseout="mudaFOTO('fale conosco.jpg')"><a href="espc.html" target="_blank">especificações</a></li>
+   <li onmousemove="mudaFOTO('fotos.jpg')"onmouseout="mudaFOTO('fale conosco.jpg')"><a href="fotos.html" target="_blank">fotos</a></li>
+   <li onmousemove="mudaFOTO('fale conosco.jpg')" onmouseout="mudaFOTO('fale conosco.jpg')"><a href="fale-cons.html" target="_blank">fale conosco</a></li>
+   </ul>
+</nav> 
+</header>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>
+        <h3>fabrica>fale conosco </h3>
+        <h3>atualizado em 2023</h3> 
+           </hgroup>
+        </header>
+<form method="post" id="fcontado">
+
+<fieldset id="usuario"><legend>Identificação do Usuário</legend>  
+    <p><label for="cnome">Nome:</label> <input type="text" name="tnome" id="cnome" size="40" maxlength="50" placeholder="Nome Completo"/></p>
+    <p><label for="csenha">Senha:</label> <input type="password" name="tsenha" id="csenha" size="20"  maxlength="30" placeholder="8 dígitos"/></p>
+    <p><label for="cmail">e-mail:</label> <input type="email" name="tmail" id="cmail" size="40" maxlength="100" placeholder="seu melhor e-mail"/></p>
+    <fieldset id="sexo"><legend>Sexo:</legend> 
+      <input type="radio" name="tsexo" id="cmasc"/><Label for="cmasc">Masculino</Label><br/>
+      <input type="radio" name="tsexo" id="cfem" checked/><Label for="cfem">Feminino</Label>
+    </fieldset>
+    <p><label for="cnasc">Data de Nascimento:</label><input type="date" name="tnasc" id="cnasc" /></p> 
+</fieldset>
+
+<fieldset id="endereco"><legend>Endereço do Usuário</legend> 
+    <p>Logradouro:<input type="text" name="trua" id="crua" size="13" maxlength="80" placeholder="rua, av, trav, ..."/></p>
+    <p>Número:<input type="number" name="tnum" id="cnum" min="0" max="99999"/></p>
+    <p><label for="cest">Estado:</label>
+    <select name="test" id="cest">
+       <option>São Paulo</option>
+    </select></p>
+    <p><label for="ccid">Cidade:</label>
+    <select name="tcid" id="ccid">
+        <option>Igupe</option>
+        <option>Ilha Cumprida</option>
+    </select></p>
+    <p><label for="cbairro">Bairro</label>
+    <input type="text" name="tbairro" id="cbairro" maxlength="40" size="20" placeholder="Seu Bairro" list="Bairro">
+    <datalist id="Bairro">
+        <option value="Icapara"></option>
+        <option value="Barra do Ribeira"></option>
+        <option value="Pontal"></option>
+        <option value="Aquarius"></option>
+        <option value="Vila Nova"></option>
+        <option value="Praia do Leste"></option>
+        <option value="Rocio"></option>
+        <option value="Quatinga"></option>
+        <option value="Outros..."></option>
+    </datalist>
+</p>
+</fieldset>
+
+<fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+    <p><label for="curg">Grau de Urgéncia:</label>
+    Mín<input type="range" name="turg" id="curg" min="0" max="10" step="2"/>Máx</p>
+    <p><label for="cmsg">Mensagem:</label>
+    <textarea name="tmsg" id="cmsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem">
+
+    </textarea></p> 
+</fieldset>
+
+<fieldset id="pedido"><legend>Quero Salgados</legend>
+    <p><input type="checkbox" name="tped" id="cped"/>
+   <label for="cped">Gostaria de adquirir salgados quando disponível!</label></p>
+    <p><label for="cqtd"> Quantidade:</label>
+    <input type="number" name="tqtd" id="cqtd" min="1" max="9999"/></p>
+    <p><label for="ctp">tipo</label>
+    <select name="ttp" id="ctp">
+        <option>salgados</option>
+        <option>kibes</option>
+        <option>churros</option>
+    </select></p>
+    <p><label for="ctpt">Preço total: R$ </label><input type="text" name="ttpt" id="ctpt" maxlength="10" size="12" placeholder="Coloque o valor"></p>
+</fieldset>
+<input type="image" src="botão enviar.png"/>
+
+ </form>
+</article>
+</section>
+
+<footer id="rodape">
+    <p>copyright &copy; wanessa salgados zap:(19) 98846-7716</br>facebook|instagram </p>   
+</footer>
+</div>
+    
+</body>
+</html>

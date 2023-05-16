@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>wanessa salgados</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="espc.css"/>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+   
+</head>
+<script>
+    function mudaFOTO(foto){
+        document.getElementById("icone").src=foto; }
+</script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+    <hgroup id="cabecalho">
+
+        <h1>fabrica:</h1>
+     <h2>wanessa   salgados</h2>
+
+    </hgroup>
+<img id="icone" src="especificações.jpg"/>
+
+  
+<nav id="menu">
+    
+   <h1> menu principal</h1>
+   <ul type="disc">
+   <li onmousemove="mudaFOTO('home.jpg')" onmouseout="mudaFOTO('especificações.jpg')"><a href="index.html" target="_blank">home</a></li>
+   <li onmousemove="mudaFOTO('especificações.jpg')" onmouseout="mudaFOTO('especificações.jpg')"><a href="espc.html" target="_blank">especificações</a></li>
+   <li onmousemove="mudaFOTO('fotos.jpg')"onmouseout="mudaFOTO('especificações.jpg')"><a href="fotos.html" target="_blank">fotos</a></li>
+   <li onmousemove="mudaFOTO('fale conosco.jpg')" onmouseout="mudaFOTO('especificações.jpg')"><a href="fale-cons.html" target="_blank">fale conosco</a></li>
+   </ul>
+</nav> 
+</header>
+<section id="corpo-full">
+    <article id="noticia-principal">
+    <header id="cabecalho-artigo">
+        <hgroup>
+    <h3>fabrica>especificações</h3>
+    <h3>atualizado em 2023</h3> 
+       </hgroup>
+    </header>
+
+   <p> clique em qualquer ponto vermelho na imagem para ter mais informações.</p>
+
+    <section id="conteudo">
+        <img src="img.png" usemap="#meumapa"/>
+        <map name="meumapa">
+        <area shape="circle" coords="49,44,12" href="espc-pg.html#salgados" target="janela"/>
+        <area shape="circle" coords="274,124,12" href="espc-pg.html#quibes"  target="janela"/>
+        <area shape="circle" coords="294,328,12" href="espc-pg.html#churros"target="janela"/>
+        </map>
+        <iframe src="espc-pg.html" name="janela" id="frame-spec"></iframe>
+    </section>
+    </article>
+</section>
+<footer id="rodape">
+    <p>copyright &copy; wanessa salgados </br>facebook|instagram </p>   
+</footer>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>wanessa salgados</title>
+<link rel="stylesheet"  href="style.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+   
+</head>
+<script>
+    function mudaFOTO(foto){
+        document.getElementById("icone").src=foto; }
+</script>
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+    <hgroup id="cabecalho">
+
+        <h1>fabrica:</h1>
+     <h2>wanessa   salgados</h2>
+
+    </hgroup>
+<img id="icone" src="logo.jpg"/>
+
+  
+<nav id="menu">
+    
+   <h1> menu principal</h1>
+   <ul type="disc">
+   <li onmousemove="mudaFOTO('home.jpg')" onmouseout="mudaFOTO('logo.jpg')"><a href="index.html" target="_blank">home</a></li>
+   <li onmousemove="mudaFOTO('especificações.jpg')" onmouseout="mudaFOTO('logo.jpg')"><a href="espc.html" target="_blank">especificações</a></li>
+   <li onmousemove="mudaFOTO('fotos.jpg')"onmouseout="mudaFOTO('logo.jpg')"><a href="fotos.html" target="_blank">fotos</a></li>
+   <li onmousemove="mudaFOTO('fale conosco.jpg')" onmouseout="mudaFOTO('logo.jpg')"><a href="fale-cons.html"target="_blank">fale conosco</a></li>
+   </ul>
+</nav> 
+</header>
+<section id="corpo">
+    <article id="noticia-principal">
+<h2><i><u>salgados e kibes...</u></i></h2>
+    <figure class="foto-legenda">
+<img src="prato-salgados.png" >
+<figcaption>
+<header id="cabecalho-um">
+    <h3>wanessa salgados</h3>
+</header>
+    <p>salgados e variedadades</p>
+</figcaption>
+</figure>
+<h2><i><u>churros...</u></i></h2>
+<figure class="foto-legenda">
+        <img src="wanessa churros.webp" >
+        <figcaption>
+<header id="cabecalho-dois">
+        <h3>wanessa salgados</h3>
+</header>
+            <p>churros de doce de leite e chocolate</p>
+        </figcaption>
+    </figure>
+    </article>
+</section>
+<aside id="lateral">
+    <h3><i><u>cardapio</u></i></h3>
+<table id="tabela">
+   <caption> tabela de sabores: <span>2023</span>  </caption>
+    <tr><td class="ce">salgados</td><td class="cd">frango, carne, brócolis, pizza, queijo c/alho , queijo c/orégano, salsicha ...</td></tr>
+    <tr><td  class="ce">kibes</td><td class="cd">cremoso ...</td></tr>
+    <tr><td  class="ce">churros</td><td class="cd">doce de leite , chocolate ...</td></tr>
+    
+</table>
+<table id="tabela">
+    <caption> preços: <span>2023</span> </caption>
+    <tr><td class="ce">salgados</td><td class="cd">preço</td></tr>
+    <tr><td class="ce">kibes</td><td class="cd">preço</td></tr>
+    <tr><td class="ce">churros</td><td class="cd">preço</td></tr>
+</table>
+ 
+</aside>
+<footer id="rodape">
+    <p>copyright &copy; wanessa salgados </br>facebook|instagram </p>   
+</footer>
+    </div>
+    
+</body>
+</html>

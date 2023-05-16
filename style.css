@@ -1,0 +1,192 @@
+@charchet "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Righteous & display=swap');
+
+body {background-color:rgb(236, 235, 234);
+   
+}
+div#interface{width: 1000px;
+   background-color: white;
+   margin: 40px 550px 40px 350px;
+   box-shadow: 1px 1px 10px black;
+   padding: 10px 10px 10px 30px ;
+
+
+}
+h1 {
+font-family: bell mt;
+font-size: 650%;
+color:black;
+text-shadow: 2px 2px 2px black;}
+
+h2 {font-size:400%;
+font-family:algerian;
+color:brown;
+text-shadow: 1px 1px 2px black;
+background-color: white;}
+u{color:Brown}
+h3{color: brown;
+   font-size: 40pt;}
+p {
+   
+   color:black;
+}
+header#cabecalho img#icone{
+   position: absolute;
+   left: 1150px;
+   top: 60px;
+
+}  
+
+header#cabecalho{
+   border-bottom: 3px black solid;
+   height: auto;}
+header#cabecalho h1{
+   font-family: 'Righteous', cursiva;
+   font-size: 90pt;
+   color: rgb(63, 4, 4); 
+   text-shadow: 2px 2px 2px black;
+padding: 0px;
+margin-bottom: 0px;}
+header#cabecalho h2{
+   font-family: 'Righteous', cursiva;
+   color: black;
+   font-size: 40pt;
+   padding: 0px;
+   margin-top: 0px;}
+article#noticia-principal h2{
+font-size: 25pt;
+background-color:white;
+color: #9c1414;
+padding: 5px 0px 5px 10px;
+margin: 10px 0px 10px 0px;}
+header#cabecalho-um h3{
+   color:rgb(246, 248, 244);
+   font-size: 20pt;
+}
+header#cabecalho-dois h3{
+   color:rgb(246, 248, 244);
+   font-size: 20pt;
+}
+hgroup#cabecalho h1{
+   color: #000;
+   font-family: bell mt ;
+}
+hgroup#cabecalho h2{
+   color: brown;
+   font-family: bell mt ;
+}
+
+/* formatação de imagens com legendas*/
+figure.foto-legenda {
+    position: relative;
+    border: solid rgb(126, 21, 21);
+    
+ }
+ figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+    }
+    
+ figure.foto-legenda  figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing:border-box ;
+   
+ transition: opacity 1s;}
+
+    figure.foto-legenda:hover figcaption{
+        opacity: 1;
+    }
+/*formatação do menu*/
+
+nav#menu {
+   display: block;}
+
+nav#menu ul{
+   list-style: none;
+   text-transform:uppercase ;
+   position: absolute;
+   top: 40px;
+   left: 350px; 
+}
+nav#menu li{
+   display: inline-block;
+   background-color: #ce0b0b;
+   padding: 10px;
+   margin: 5px;
+   transition:background-color 1s;}
+nav#menu li:hover{
+   background-color: #790505;
+
+
+}
+nav#menu h1{
+   display: none;}
+nav#menu a{
+   color: #000;
+   }
+nav#menu a:hover{
+   color:#ffffff;
+   text-decoration: underline;
+   transition:color 1s ;
+}
+
+section#corpo{
+   display: block;
+   width: 510px;
+   float: left;
+   border-right:3px solid black;
+   padding-right: 100px; ;
+   }
+table#tabela{
+   border: 1px solid #790505;
+   border-spacing: 0px;
+   margin-left: auto; 
+   margin-right: auto;}
+table#tabela td{
+   border: 1px solid #661616;
+   padding: 20px;
+   text-align: center;
+   vertical-align: middle;}
+table#tabela td.ce{
+   color:black;
+   background-color:#a70e0e;  
+   font-weight: bold;}
+table#tabela td.cd{
+background-color: #e72323;}
+table#tabela caption{
+color: #000;
+font-size:16pt;
+font-weight: bolder;}
+table#tabela caption span{
+   display: block;
+   float: right;
+   color: #606060;
+   font-size: 12pt;
+   margin-top: 5px;
+}
+
+
+aside#lateral{
+   display: block;
+   width: 300px;
+   float: right;
+   
+}
+
+
+footer#rodape{
+   clear: both;
+   border-top:3px solid black ;}
+footer#rodape p{
+   text-align: center;
+}
+
+  
+
